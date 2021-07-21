@@ -10,6 +10,15 @@ import springbook.user.domain.User;
 public class UserDaoTest {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException{
 		ApplicationContext context = new AnnotationConfigApplicationContext(DaoFactory.class);
+		DaoFactory factory = new DaoFactory();
+		UserDao dao1 = factory.userDao();
+		UserDao dao2 = factory.userDao();
+		UserDao dao3 = context.getBean("userDao", UserDao.class);
+		UserDao dao4 = context.getBean("userDao", UserDao.class);
+		System.out.println(dao1);
+		System.out.println(dao2); 
+		System.out.println(dao3);
+		System.out.println(dao4);
 		
 		UserDao dao = context.getBean("userDao", UserDao.class);
 		

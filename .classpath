@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="C:/Users/user/Documents/workspace-sts-3.9.14.RELEASE/springbook/lib/spring-context-3.0.7.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/user/Documents/workspace-sts-3.9.14.RELEASE/springbook/lib/spring-core-3.0.7.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/user/Documents/workspace-sts-3.9.14.RELEASE/springbook/lib/spring-expression-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/Documents/workspace-sts-3.9.14.RELEASE/springbook/lib/mysql-connector-java-8.0.25.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
