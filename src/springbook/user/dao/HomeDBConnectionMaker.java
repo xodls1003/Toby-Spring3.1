@@ -12,6 +12,7 @@ public class HomeDBConnectionMaker implements ConnectionMaker {
 			Connection c = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/toby","root","rootpw");
 			return c;
+			//집세팅
 		
 		
 	
