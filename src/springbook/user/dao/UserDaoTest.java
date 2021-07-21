@@ -27,7 +27,7 @@ public class UserDaoTest {
 		user.setName("백기선");
 		user.setPassword("married");
 		
-		dao.add(user);
+		dao.add(user); 
 		
 		System.out.println(user.getId()+"등록성공");
 		User user2 = dao.get(user.getId());
